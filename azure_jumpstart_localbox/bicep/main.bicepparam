@@ -1,16 +1,16 @@
 using './main.bicep'
 
-param tenantId = '<your tenant id>'
-param spnProviderId = '<your Microsoft.AzureStackHCI resource provider object id>'
+//param tenantId = '<your tenant id>'
+//param spnProviderId = '<your Microsoft.AzureStackHCI resource provider object id>'
 param windowsAdminUsername = 'arcdemo'
-param windowsAdminPassword = '<your password>'
+//param windowsAdminPassword = '<your password>'
 param logAnalyticsWorkspaceName = 'LocalBox-Workspace'
 param natDNS = '8.8.8.8'
 param githubAccount = 'microsoft'
 param githubBranch = 'main'
 param deployBastion = false
-param location = 'northeurope'
-param azureLocalInstanceLocation = 'australiaeast'
+param location = 'southcentralus'
+param azureLocalInstanceLocation = 'southcentralus'
 param rdpPort = '3389'
 param autoDeployClusterResource = true
 param autoUpgradeClusterResource = false
