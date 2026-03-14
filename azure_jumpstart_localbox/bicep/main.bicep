@@ -20,7 +20,7 @@ param logAnalyticsWorkspaceName string = 'LocalBox-Workspace'
 param natDNS string = '8.8.8.8'
 
 @description('Target GitHub account')
-param githubAccount string = 'microsoft'
+param githubAccount string = 'dmauser'
 
 @description('Target GitHub branch')
 param githubBranch string = 'main'
