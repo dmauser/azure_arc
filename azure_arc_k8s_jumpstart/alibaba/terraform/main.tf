@@ -5,7 +5,7 @@ module "managed-k8s" {
   new_vpc         = true
   vpc_cidr        = "192.168.0.0/16"
   vswitch_cidrs = [
-    "192.168.1.0/24",
+    "10.110.20.0/24",
   ]
   new_sls_project = true
 

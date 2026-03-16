@@ -45,7 +45,7 @@ variable "vswitch_ids" {
 variable "vswitch_cidrs" {
   description = "List cidr blocks used to create several new vswitches when 'new_vpc' is true."
   type        = list(string)
-  default     = ["192.168.1.0/24"]
+  default     = ["10.110.20.0/24"]
 }
 
 variable "availability_zones" {
